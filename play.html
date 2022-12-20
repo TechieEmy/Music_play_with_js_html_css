@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Playlist</title>
+    <link rel="stylesheet" href="play.css" />
+  </head>
+  <body>
+    <div class="conatiner">
+      <div class="nav">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-triangle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767L7.022 1.566z"
+            />
+          </svg>
+          <h5>EmYmuSiC</h5>
+        </div>
+
+        <div class="nav-list">
+          <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SPECIFICATION</li>
+            <li id="connect">PRODUCT</li>
+            <li id="connect">CONNECT</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>
+        THE <br />BEST<br />
+        SOUND
+      </h2>
+
+      <div class="music">
+        <p>Click to listen</p>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentcolor" id="icon" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                  </svg> -->
+                  <img src="./media/play.svg" id="icon">
+      </div>
+    </div>
+    <audio id="mysong">
+                    <source src="./media/song.mp3">
+    </audio>
+  </body>
+  <script src="play.js"></script>
+</html>
